@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.navbar {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #815854;
+}
+
+
+.TextHeader {
+    font-size: 18px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    font-size: 18px;
+    margin-right: 80px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar ul li:hover {
+    color: #F9EBDE;
+    font-weight: bold;
+}
+
+.logo_user {
+    background-color: #F9EBDE;
+    padding: 80px;
+    text-align: center;
+}
+
+.logo_portfolio img {
+    width: 250px;
+    height: 250px;
+}
+
+#nom {
+    color: #815854;
+}
+
+.user_name {
+    font-size: 30px;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 12px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.description:before {
+    content: '';
+    animation: animateText infinite 4s;
+}
+
+@keyframes animateText {
+    0% {
+        content: "FullStack Developer";
+    }
+
+    100% {
+        content: "Mobile Developer(Flutter)";
+    }
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.divider-line {
+    height: 5px;
+    background-color: white;
+    width: 200px ;
+}
+
+.divider-star {
+    font-size: 50px;
+    color: white;
+    padding-top: 15px;
+}
+
+.part_1{
+    background-color: #815854;
+    padding: 35px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.part_2{
+    background-color: #000;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.social_media img{
+    width: 18px;
+}
+
+.social_media {
+    margin-top: 12px;
+    display: flex;
+    gap: 50px;
+}
+
+.social_media li{
+    list-style-type: none;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 9px;
+    cursor: pointer;
+    border: #fff 1px solid;
+    transition: all .8s ease-in-out;
+}
+
+.social_media li:hover{
+    background-color: #fff;
+}
+
+.title_footer{
+    font-size: 25px;
+}
